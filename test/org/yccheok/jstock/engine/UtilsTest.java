@@ -179,6 +179,11 @@ public class UtilsTest extends TestCase {
         result = Utils.toGoogleFormat(code);
         assertEquals(expResult, result);
 
+        code = Code.newInstance("c.za");
+        expResult = "JSE:C";
+        result = Utils.toGoogleFormat(code);
+        assertEquals(expResult, result);
+
         code = Code.newInstance("c.st");
         expResult = "STO:C";
         result = Utils.toGoogleFormat(code);

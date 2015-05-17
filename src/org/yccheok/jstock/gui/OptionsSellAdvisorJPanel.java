@@ -302,6 +302,7 @@ public class OptionsSellAdvisorJPanel extends javax.swing.JPanel implements JSto
                 "TW",   // Taiwan
                 "GB",   // Unitedkingdom
                 "US",   // UnitedState
+                    "ZA",   // SouthAfrica
             };
 
             final List<String> countryList = Arrays.asList(countries);

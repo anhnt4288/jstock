@@ -833,6 +833,7 @@ public class Utils {
         twoLetterSuffixes.put(".AX", "ASX:");
         twoLetterSuffixes.put(".BR", "EBR:");
         twoLetterSuffixes.put(".AS", "AMS:");
+        twoLetterSuffixes.put(".ZA", "JSE:");
         
         countries.put("AX", Country.Australia);
         countries.put("VI", Country.Austria);
@@ -890,6 +891,8 @@ public class Utils {
         countries.put("TWO", Country.Taiwan);
         
         countries.put("L", Country.UnitedKingdom);
+
+        countries.put("ZA", Country.SouthAfrica);
         
         for (Index index : Index.values()) {
             indices.put(index.code.toString(), index.country);
@@ -937,6 +940,7 @@ public class Utils {
         defaultPriceSources.put(Country.Norway, PriceSource.Yahoo);
         defaultPriceSources.put(Country.Portugal, PriceSource.Yahoo);
         defaultPriceSources.put(Country.Singapore, PriceSource.Google);
+        defaultPriceSources.put(Country.SouthAfrica, PriceSource.Google);
         defaultPriceSources.put(Country.Spain, PriceSource.Yahoo);
         defaultPriceSources.put(Country.Sweden, PriceSource.Yahoo);
         defaultPriceSources.put(Country.Switzerland, PriceSource.Yahoo);

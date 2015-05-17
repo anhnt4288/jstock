@@ -152,6 +152,7 @@ public enum Factories {
         final List<StockServerFactory> norwayList = new CopyOnWriteArrayList<>();
         final List<StockServerFactory> portugalList = new CopyOnWriteArrayList<>();
         final List<StockServerFactory> singaporeList = new CopyOnWriteArrayList<>();
+        final List<StockServerFactory> southAfricaList = new CopyOnWriteArrayList<>();
         final List<StockServerFactory> spainList = new CopyOnWriteArrayList<>();
         final List<StockServerFactory> swedenList = new CopyOnWriteArrayList<>();
         final List<StockServerFactory> switzerlandList = new CopyOnWriteArrayList<>();
@@ -195,6 +196,7 @@ public enum Factories {
         portugalList.add(YahooStockServerFactory.newInstance());
         singaporeList.add(GoogleStockServerFactory.newInstance());
         singaporeList.add(YahooStockServerFactory.newInstance());
+        southAfricaList.add(GoogleStockServerFactory.newInstance());
         spainList.add(YahooStockServerFactory.newInstance());
         swedenList.add(YahooStockServerFactory.newInstance());
         swedenList.add(GoogleStockServerFactory.newInstance());
@@ -232,6 +234,7 @@ public enum Factories {
         map.put(Country.Norway, norwayList);
         map.put(Country.Portugal, portugalList);
         map.put(Country.Singapore, singaporeList);
+        map.put(Country.SouthAfrica, southAfricaList);
         map.put(Country.Spain, spainList);
         map.put(Country.Sweden, swedenList);
         map.put(Country.Switzerland, switzerlandList);

@@ -50,6 +50,7 @@ public enum Country {
     Norway("/images/16x16/no.png", "Norway", Currency.valueOf("NOK"), Currency.valueOf("NOK")),
     Portugal("/images/16x16/pt.png", "Portugal", Currency.valueOf("EUR"), Currency.valueOf("EUR")),
     Singapore("/images/16x16/sg.png", "Singapore", Currency.valueOf("SGD"), Currency.valueOf("SGD")),
+    SouthAfrica("/images/16x16/nz.png", "South Africa", Currency.valueOf("ZAR"), Currency.valueOf("ZAR")),
     Spain("/images/16x16/es.png", "Spain", Currency.valueOf("EUR"), Currency.valueOf("EUR")),
     Sweden("/images/16x16/se.png", "Sweden", Currency.valueOf("SEK"), Currency.valueOf("SEK")),
     Switzerland("/images/16x16/ch.png", "Switzerland", Currency.valueOf("CHF"), Currency.valueOf("CHF")),
